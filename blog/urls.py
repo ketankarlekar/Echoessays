@@ -3,7 +3,7 @@ from .import views
 
 
 urlpatterns = [
-    path('',views.index,name='blog-index'),
+    path('blog/',views.index,name='blog-index'),
   
     
 ]
